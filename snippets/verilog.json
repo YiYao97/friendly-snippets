@@ -31,10 +31,10 @@
         "body": ["whlie (${1}) begin\n\t${0}\nend"],
         "description": "While loop"
     },
-    "repeat loop": {
-        "prefix": "repeat (${1}) begin",
-        "body": ["repeat (${1}) begin\n\t${0}\nend"],
-        "description": "Repeat loop"
+    "begin end": {
+        "prefix": "begin",
+        "body": ["begin\n\t${0}\nend"],
+        "description": "begin end"
     },
     "case statement": {
         "prefix": "case",
