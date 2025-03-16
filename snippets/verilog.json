@@ -61,7 +61,7 @@
     },
     "module block": {
         "prefix": "modu",
-        "body": ["module ${1:FILENAME} ();", "\t${0}", "endmodule"],
+        "body": ["module ${1:FILENAME} (${2});", "\t${0}", "endmodule"],
         "description": "Module Block"
     },
     "for": {
